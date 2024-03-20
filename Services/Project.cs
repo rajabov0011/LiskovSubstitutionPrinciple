@@ -9,8 +9,6 @@ namespace LiskovSubstitutionPrinciple.Services
         private List<Document> allDocs { get; set; }
         private List<WritableDocument> writableDocs { get; set; }
 
-
-
         public Project()
         {
             this.allDocs = new List<Document>();
